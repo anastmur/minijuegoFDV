@@ -61,5 +61,7 @@ public class Bullet : MonoBehaviour
         rigid1.AddForce(transform.right * 100f);
         rigid2.AddForce(transform.right * -100f);
         destroyedMeteor.SetActive(false);
+        Destroy(meteor1, 3f);
+        Destroy(meteor2, 3f);
     }
 }
