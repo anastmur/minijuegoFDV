@@ -1,0 +1,15 @@
+# Omite carpetas temporales, configuraciones de VSCode y VisualStudio
+# y configuraciones del usuario
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+.vsconfig
+*.sln
+.vscode/
+.vs/
+*.csproj
